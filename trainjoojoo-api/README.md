@@ -1,30 +1,6 @@
-# README
+# TrainJooJoo API
 
-
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
+I'm currently focusing on calisthenics (bodyweight exercises), explaining why the `Succession` model does not contain a `weight`attribute.
 
 After migrating the database (`bin/rails db migrate`), run these two tasks:
 
