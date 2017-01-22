@@ -2,7 +2,7 @@ class WorkoutsController < ApplicationController
 
   def index
     @workouts = Workout.all
-    render json: @workouts
+    render json: @workouts, :include => {:exercises => {:include => :successions}}
   end
 
   def create
@@ -14,7 +14,7 @@ class WorkoutsController < ApplicationController
 
   def show
     @workout = Workout.find(params[:id])
-    render json: @workout
+    render json: @workout, :include => {:exercises => {:include => :successions}}
   end
 
   def destroy

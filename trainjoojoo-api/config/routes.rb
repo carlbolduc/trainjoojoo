@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   resources :workouts do
     resources :successions
   end
+  resources :successions
 end
