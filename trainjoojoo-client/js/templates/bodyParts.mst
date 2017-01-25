@@ -1,0 +1,5 @@
+<script id="template" type="x-tmpl-mustache">
+    {{#bodyParts}}
+    <div>{{name}}</div>
+    {{/bodyParts}}
+</script>
